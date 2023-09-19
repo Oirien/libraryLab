@@ -23,6 +23,7 @@ public class Library {
     public void addBookToCollection(Book book){
         if (hasCapacity()){
             bookCollection.add(book);
+            genreAdd(book);
         }
     }
     public boolean bookInStock(Book book){
@@ -48,7 +49,7 @@ public class Library {
     }
 
     public int genreCount(String genre){
-        return genres.get(genre);
+        return this.genres.get(genre);
     }
 
 }
