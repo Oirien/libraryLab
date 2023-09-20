@@ -23,7 +23,7 @@ public class LibraryTest {
         bookC = new Book("Catcher in the Rye", "J.D. Salinger", "Americana");
         bookD = new Book("Little Women", "Louise Mary Alcott", "Coming-of-age");
 
-        library = new Library(2);
+        library = new Library(4);
 
         borrower = new Borrower("Rob");
     }

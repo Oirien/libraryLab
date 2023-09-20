@@ -11,11 +11,6 @@ public class Borrower {
         this.name = name;
         this.borrowedBooks = new ArrayList<>();
     }
-
-    public String getName(){
-        return name;
-    }
-
     public int borrowAmount(){
         return this.borrowedBooks.size();
     }
